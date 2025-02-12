@@ -1,0 +1,145 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #6f42c1 !important; 
+    border-bottom: 2px solid #4e1d91; 
+  }
+  
+  .navbar .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #fff !important;
+  }
+  
+  .navbar .nav-link {
+    font-size: 1.2rem;
+    margin-left: 15px;
+    color: #fff;
+  }
+
+  h2 {
+    color: #6f42c1;
+    font-weight: bold;
+  }
+  
+  h3 {
+    color: #6f42c1;
+    font-weight: bold;
+  }
+  
+  
+  .navbar .nav-link:hover {
+    color: #f8f9fa;
+    font-weight: bold;
+  }
+  
+  .card {
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 30px;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img-top {
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  .card-body {
+    background-color: #f9f9f9;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    color: #6f42c1;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  .card a.btn-primary {
+    background-color: #6f42c1;
+    border-color: #6f42c1;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .card a.btn-primary:hover {
+    background-color: #5a2d9a;
+    border-color: #5a2d9a;
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: #fff;
+    font-size: 1rem;
+    padding: 20px;
+    margin-top: auto; 
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  .container {
+    margin-top: 40px;
+    flex-grow: 1; 
+    border-color: #5a2d9a;
+  }
+  
+  .col-md-4 {
+    padding: 0 15px;
+    border-color: #5a2d9a;
+  }
+  
+  .carousel-inner img {
+    object-fit: cover;
+    height: 400px; 
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #fff;
+  }
+  
+  @media (max-width: 767px) {
+    .navbar .nav-link {
+      font-size: 1rem;
+    }
+  
+    .card-title {
+      font-size: 1.2rem;
+    }
+  
+    .card-body {
+      padding: 15px;
+    }
+  }
+
+  
